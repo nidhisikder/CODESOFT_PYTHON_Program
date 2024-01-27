@@ -1,0 +1,22 @@
+print("To do the calculations ,click the respective numbers")
+print("To Add, Press 1")
+print("To Substract, Press 2")
+print("To Multiply, Press 3")
+print("To Divide: 4")
+opr=int(input("Enter the operation that you want to perform"))
+p1=int(input("Enter the 1st number"))
+p2=int(input("Enter the 2nd number"))
+if(opr==1):
+    sum=p1+p2
+    print("The sum of the no. is :",sum)
+elif(opr==2):
+    diff=p1-p2
+    print("The diiference is: ",diff)
+elif(opr==3):
+    prod=p1*p2
+    print("The product is:", prod)
+elif(opr==4):
+    quo=p1/p2
+    print("The quotient is:",quo)
+else:
+    print("Please press the number assignmed to perform the respective operation")
